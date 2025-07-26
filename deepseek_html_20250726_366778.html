@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arlomi Group LLC - Expert digital marketing & business consulting services in the USA. Grow your business with our proven strategies in SEO, branding, and client acquisition.">
+    <meta name="keywords" content="digital marketing, business consulting, SEO, branding, marketing strategy, Ohio, USA">
+    <title>Arlomi Group LLC | Digital Marketing & Business Consulting Experts</title>
+    <style>
+        :root {
+            --primary: #000000; /* Black - Professional */
+            --secondary: #FF6B35; /* Orange - Energy & Action */
+            --light: #FFFFFF; /* White - Clean */
+            --dark: #333333;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary);
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 12px 30px;
+            margin: 1rem 0;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+        .cta-button:hover {
+            background: #e05a2b;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 107, 53, 0.4);
+        }
+        .services {
+            padding: 4rem 0;
+            text-align: center;
+            background: var(--light);
+        }
+        .service-card {
+            background: white;
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin: 1rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-top: 3px solid var(--secondary);
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        .testimonials {
+            background: #f8f8f8;
+            padding: 4rem 0;
+        }
+        .testimonial-card {
+            background: white;
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin: 1rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .testimonial-card:before {
+            content: """;
+            font-size: 60px;
+            color: var(--secondary);
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            opacity: 0.2;
+        }
+        .contact {
+            padding: 4rem 0;
+            text-align: center;
+            background: var(--primary);
+            color: white;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: var(--dark);
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 0.9rem;
+        }
+        .footer-links a {
+            color: var(--secondary);
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .stars {
+            color: var(--secondary);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        h1, h2, h3 {
+            color: var(--primary);
+        }
+        .section-title {
+            color: var(--primary);
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        .section-title:after {
+            content: "";
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            background: var(--secondary);
+            bottom: -10px;
+            left: 25%;
+        }
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 3rem 0;
+            }
+            .service-card {
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="color: white; margin: 0;">ARLOMI GROUP LLC</h1>
+            <p style="color: var(--secondary); margin: 0; font-weight: bold;">Digital Marketing & Business Consulting</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 style="color: white; font-size: 2.5rem;">Grow Your Business With Proven Marketing Strategies</h2>
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem;">We help small and mid-sized businesses across the USA increase revenue through strategic digital marketing and business optimization.</p>
+            <a href="#contact" class="cta-button">GET YOUR FREE CONSULTATION</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <div class="service-card" style="flex: 1 1 300px;">
+                    <h3>Digital Marketing Strategy</h3>
+                    <p>Comprehensive digital marketing plans tailored to your business goals, including SEO, PPC, and social media.</p>
+                </div>
+                <div class="service-card" style="flex: 1 1 300px;">
+                    <h3>Brand Development</h3>
+                    <p>Create a powerful brand identity that resonates with your target audience and stands out in the market.</p>
+                </div>
+                <div class="service-card" style="flex: 1 1 300px;">
+                    <h3>Marketing Audits</h3>
+                    <p>In-depth analysis of your current marketing efforts to identify gaps and opportunities for growth.</p>
+                </div>
+                <div class="service-card" style="flex: 1 1 300px;">
+                    <h3>Client Acquisition Systems</h3>
+                    <p>Proven frameworks to attract and convert high-value customers consistently.</p>
+                </div>
+                <div class="service-card" style="flex: 1 1 300px;">
+                    <h3>Business Process Optimization</h3>
+                    <p>Streamline operations to reduce costs and improve efficiency across your organization.</p>
+                </div>
+                <div class="service-card" style="flex: 1 1 300px;">
+                    <h3>Competitive Analysis</h3>
+                    <p>Identify your competitors' strengths and weaknesses to develop winning strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Success Stories</h2>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"Arlomi Group's digital marketing strategy doubled our online leads in just 90 days. Their expertise in SEO and paid ads transformed our business."</p>
+                    <p><strong>Mark T., Texas</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"The competitive analysis gave us insights we never would have discovered on our own. We've gained significant market share thanks to their work."</p>
+                    <p><strong>Sarah L., Florida</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"Professional, results-driven, and truly understands what makes businesses grow in the digital age. Worth every penny!"</p>
+                    <p><strong>James P., California</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"Our branding was completely transformed. We now have a cohesive identity that attracts our ideal customers consistently."</p>
+                    <p><strong>Lisa M., New York</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"The marketing audit revealed gaps we didn't know existed. Implementing their recommendations increased our conversion rate by 40%."</p>
+                    <p><strong>David K., Ohio</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"Their client acquisition system is a game-changer. We have a predictable flow of qualified leads for the first time."</p>
+                    <p><strong>Emily R., Illinois</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"Process optimization saved us over $15,000 in operational costs in the first quarter alone. Incredible ROI."</p>
+                    <p><strong>Robert H., Georgia</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"From day one, they understood our business challenges and delivered customized solutions that worked."</p>
+                    <p><strong>Jessica W., North Carolina</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"The most strategic and professional consulting firm we've worked with. They deliver measurable results."</p>
+                    <p><strong>Michael S., Arizona</strong></p>
+                </div>
+                <div class="testimonial-card" style="flex: 1 1 300px;">
+                    <div class="stars">★★★★★</div>
+                    <p>"Our website traffic increased by 300% after implementing their digital marketing recommendations."</p>
+                    <p><strong>Daniel L., Pennsylvania</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 style="color: white;">Ready to Transform Your Business?</h2>
+            <p style="color: white; font-size: 1.2rem;">Contact us today for a free 30-minute strategy session</p>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="business">Business Name</label>
+                        <input type="text" id="business" name="business">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="digital-marketing">Digital Marketing</option>
+                            <option value="branding">Brand Development</option>
+                            <option value="audit">Marketing Audit</option>
+                            <option value="consulting">Business Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">How Can We Help You?*</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">SEND MESSAGE</button>
+                </form>
+            </div>
+            
+            <div style="margin: 2rem 0; color: white;">
+                <p><strong>Phone:</strong> <a href="tel:6147802798" style="color: var(--secondary);">(614) 780-2798</a></p>
+                <p><strong>Email:</strong> <a href="mailto:arlomigroupllc@gmail.com" style="color: var(--secondary);">arlomigroupllc@gmail.com</a></p>
+                <p><strong>Office:</strong> Columbus, Ohio</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <strong>Arlomi Group LLC</strong>. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#" id="privacyLink">Privacy Policy</a>
+                <a href="#" id="termsLink">Terms & Conditions</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p style="margin-top: 1rem;">Digital Marketing & Business Consulting Services Across the USA</p>
+        </div>
+    </footer>
+
+    <script>
+        // Form submission handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will contact you within 24 hours.');
+            this.reset();
+        });
+
+        // Simple modal functionality for policies
+        document.getElementById('privacyLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Privacy Policy: This is a sample. Replace with your actual privacy policy content.');
+        });
+
+        document.getElementById('termsLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Terms & Conditions: This is a sample. Replace with your actual terms content.');
+        });
+    </script>
+</body>
+</html>
